@@ -1,0 +1,43 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    //border: 1px solid magenta; //temporary
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .card {
+        width: 85%; 
+        max-width: 32rem;
+        //height: 100px; //temporary
+        background-color: $white;
+        border-radius: 1.8rem;
+
+        padding: 1.5rem;
+        padding-bottom: 4rem;
+
+        box-shadow: 0 0.5rem 0.5rem 0.5rem rgba(0,0,0, 0.02), 0 1rem 1rem 1rem rgba(0,0,0, 0.02);
+
+        .hero {
+            width: 100%;
+            border-radius: 1.2rem;
+        }
+
+        .title {
+            font-size: 2.22rem;
+            font-weight: bold;
+            text-align: center;
+            color: $dark-blue;
+            margin-top: 2.0rem;
+        }
+
+        .description {
+            font-size: 1.54rem;
+            text-align: center;
+            color: $grayish-blue;
+            margin-top: 1.5rem;
+            //border: 1px solid red; //temporary
+            padding: 0 1rem;
+        }
+    }
+}
