@@ -23,7 +23,7 @@ Your challenge is to build out this QR code component and get it looking as clos
 
 ## My process
 
-[YouTube]()
+[YouTube](https://youtu.be/bCeYWVR_eS4)
 
 ### Built with
 
